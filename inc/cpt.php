@@ -21,7 +21,7 @@ function register_custom_post_types() {
         'query_var' => true,
         'rewrite' => array('slug' => 'watchlist'),
         'capability_type' => 'post',
-        'has_archive' => true,
+        'has_archive' => false,
         'hierarchical' => false,
         'menu_position' => 20,
         'supports' => array('title', 'editor', 'author', 'thumbnail'),
@@ -30,9 +30,36 @@ function register_custom_post_types() {
 
     register_post_type('watchlist', $args_ref);
 
+
+		$labels_ref = array(
+			'name' => _x('projects', 'Post type general name', 'projects'),
+			'singular_name' => _x('projects', 'Post type singular name', 'projects'),
+			'menu_name' => _x('Projects', 'Admin Menu text', 'projects'),
+			'add_new' => __('add project', 'projects'),
+			'edit_item' => __('edit project', 'projects'),
+			'view_item' => __('view project', 'projects'),
+			'all_items' => __('All projects', 'projects'),
+			'search_items' => __('search projects', 'projects'),
+			'not_found' => __('no project found', 'projects')
+	);
+	$args_ref = array(
+			'labels' => $labels_ref,
+			'public' => true,
+			'publicly_queryable' => true,
+			'show_ui' => true,
+			'show_in_menu' => true,
+			'query_var' => true,
+			'rewrite' => array('slug' => 'projects'),
+			'capability_type' => 'post',
+			'has_archive' => true,
+			'hierarchical' => false,
+			'menu_position' => 20,
+			'supports' => array('title', 'editor', 'author', 'thumbnail'),
+			'show_in_rest' => true
+	);
+
+	register_post_type('projects', $args_ref);
+
 }
 
 add_action('init', 'register_custom_post_types');
-
-
-

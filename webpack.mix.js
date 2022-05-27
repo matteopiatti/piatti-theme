@@ -12,3 +12,5 @@ mix.postCss('src/styles/main.css', 'dist/main.css', [
 
 mix.js('src/js/main.js', '/dist')
 mix.js('src/js/watchlist.js', '/dist')
+mix.js('src/js/slider.js', '/dist')
+mix.js('src/js/backend.js', '/dist')
