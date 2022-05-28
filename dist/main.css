@@ -1388,6 +1388,10 @@ body, html {
 	padding: 0 !important;
 	width: 1200px !important;
 }
+.foogallery.foogallery-container {
+	padding: 0 !important;
+	width: 1200px !important;
+}
 .half-bg {
 	background: linear-gradient(
 			to bottom,
