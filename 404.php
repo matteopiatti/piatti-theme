@@ -14,7 +14,7 @@
 					<a class="shadow-lg mt-auto shadow-amber-400/40 hover:shadow-amber-400/80 no-link-style font-title font-semibold bg-amber-400 transition duration-500 hover:bg-amber-300 text-slate-800 py-3 px-12 mr-auto" href="/">
 						Go back home
 					</a>
-					<a class="m-auto" href="/about#contact">
+					<a class="m-auto" href="/contact">
 						Report a problem
 					</a>
 				</div>
