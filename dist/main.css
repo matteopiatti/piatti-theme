@@ -1657,6 +1657,14 @@ a:not(.no-link-style):hover,
 .wpcf7-form .wpcf7-spinner {
 	display: none !important;
 }
+ul {
+	list-style-type: disc;
+	padding-left: 20px;
+}
+ol {
+	list-style-type: decimal;
+	padding-left: 20px;
+}
 .before\:absolute::before{
 	content: var(--tw-content);
 	position: absolute;
