@@ -448,3 +448,12 @@ ol {
 	list-style-type: decimal;
 	padding-left: 20px;
 }
+
+.watchlist-row h3 {
+	margin-top: 0 !important;
+	line-height: 1.8;
+}
+
+.watchlist-row p {
+	margin-top: 0 !important;
+}
