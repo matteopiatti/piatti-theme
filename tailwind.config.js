@@ -23,6 +23,9 @@ module.exports = {
 		'text-white',
 		'opacity-75',
 		'opacity-25',
+		'mt-0',
+		'mb-auto',
+		'leading-relaxed',
 	],
 	darkMode: "class",
   theme: {
