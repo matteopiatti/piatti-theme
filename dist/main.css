@@ -1674,8 +1674,12 @@ ol {
 	list-style-type: decimal;
 	padding-left: 20px;
 }
+.watchlist-row {
+	align-items: flex-start;
+}
 .watchlist-row h3 {
 	margin-top: 0 !important;
+	margin-bottom: auto !important;
 	line-height: 1.8;
 }
 .watchlist-row p {
