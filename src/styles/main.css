@@ -451,6 +451,7 @@ ol {
 
 .watchlist-row {
 	align-items: flex-start !important;
+	flex-wrap: wrap !important;
 }
 
 .watchlist-row h3 {
