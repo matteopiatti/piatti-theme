@@ -3,8 +3,7 @@ function watchlist_render_callback() {
 	$args = array(
 		'post_type' => 'watchlist',
 		'posts_per_page' => -1,
-		'orderby' => 'published_at',
-		'order' => 'ASC'
+		'orderby' => 'published_at'
 	);
   $my_query = new WP_Query($args);
 	$posts = $my_query->posts;
